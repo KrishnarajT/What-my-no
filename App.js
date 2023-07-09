@@ -1,11 +1,14 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { Button, StyleSheet, Text, View } from "react-native";
+import StartGameScreen from "./screens/StartGameScreen";
+import * as SystemUI from "expo-system-ui";
+SystemUI.setBackgroundColorAsync("#D3F4C1");
 
 export default function App() {
 	return (
-		<View className="flex-1 items-center justify-center bg-slate-500">
-			<Text>Open up App.js to start working on your app!</Text>
-			<StatusBar style="auto" />
-		</View>
+		<View className="flex-1">
+      <StatusBar style="auto" />
+      <StartGameScreen />
+    </View>
 	);
 }
