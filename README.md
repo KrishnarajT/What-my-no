@@ -6,6 +6,15 @@ A rather simple game made in React Native to guess a number, followed by a cours
 
 ![Screenshot 1](./screenshots/presentation.jpg)
 
+# Installation
+
+## Development 
+Download the repository and run `npm install` to install all the dependencies. Then run `npm run start` to start the app. You can use the Expo app on your phone to scan the QR code and run the app on your phone.
+
+## Production
+Just download the apk file from the releases section and install it on your phone.
+
+
 # Features
 
 1. You can select a number and the computer will try to guess it.
